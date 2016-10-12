@@ -36,6 +36,7 @@ File.open('Localizable.strings') {
         stringsFile.puts "\n"
         # puts line
         stringsFile.puts line
+        next
       end
       
       # main localized strings
